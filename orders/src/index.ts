@@ -6,7 +6,7 @@ import { TicketCreatedListener } from "./events/listeners/ticket-created-listene
 import { TicketUpdatedListener } from "./events/listeners/ticket-updated-listener";
 import { natsWrapper } from "./nats-wrapper";
 const main = async () => {
-  console.log("Hello from order service again!");
+  console.log("Hello from order service again haah!");
   if (!process.env.JWT_KEY) {
     throw new Error("fff");
   }
