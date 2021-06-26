@@ -4,6 +4,7 @@ import { OrderCancelledListener } from "./events/listeners/order-cancelled-liste
 import { OrderCreatedListener } from "./events/listeners/order-created-listener";
 import { natsWrapper } from "./nats-wrapper";
 const main = async () => {
+  console.log("haha");
   if (!process.env.JWT_KEY) {
     throw new Error("fff");
   }
